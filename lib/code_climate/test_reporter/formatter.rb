@@ -73,7 +73,7 @@ module CodeClimate
             :simplecov_root => ::SimpleCov.root,
             :gem_version =>    VERSION
           },
-          ci_service: ci_service_data
+          :ci_service => ci_service_data
         }
       end
 
